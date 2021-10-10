@@ -1,0 +1,22 @@
+/* GENERAL RULES */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* 2:13:01 */
+
+[class*="col-"] {
+    min-height: 50px;
+    background-color: hsl(214deg 100% 49%);
+    border: 1px solid #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    color: #fff;
+}
+
+.margin {
+    margin-top: 25px;
+}
